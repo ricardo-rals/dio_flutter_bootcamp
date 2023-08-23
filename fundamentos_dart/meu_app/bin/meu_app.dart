@@ -25,4 +25,22 @@ void main(List<String> arguments) {
   print("Retorna verdadeiro se e somente se esse numero for impar");
   print(numero4.isOdd);
   print(numero5.isOdd);
+
+  print("Retorna se o numero é finito");
+  print(numero4.isFinite);
+
+  print("Retorna se o numero é infinito");
+  print(double.infinity);
+
+  print("Retorna se o numero não é um numero válido");
+  print(numero4.isNaN);
+
+  print("Retorna se o numero é negativo");
+  print((numero4 * -1).isNegative);
+  print(numero4.isNegative);
+
+  print("Convert string para inteiro");
+  print(int.parse("10"));
+  // print(int.parse("teste"));
+  print(int.tryParse("teste"));
 }
